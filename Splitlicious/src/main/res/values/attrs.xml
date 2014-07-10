@@ -1,0 +1,46 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <declare-styleable name="UserProfileImageView">
+        <attr name="color" format="color"/>
+        <attr name="borderWidth" format="dimension"/>
+    </declare-styleable>
+
+    <declare-styleable name="SplitliciousTipEditText">
+        <attr name="tip_label" format="string"/>
+        <attr name="tip_label_size" format="dimension"/>
+        <attr name="tip_percentage" format="string"/>
+        <attr name="tip_amount_size" format="dimension"/>
+        <attr name="tip_icon_left" format="integer"/>
+        <attr name="tip_icon_up" format="integer"/>
+        <attr name="tip_icon_down" format="integer"/>
+        <attr name="tip_icon_up_pressed" format="integer"/>
+        <attr name="tip_icon_down_pressed" format="integer"/>
+        <attr name="tip_text_color" format="color"/>
+        <attr name="tip_background_color" format="color"/>
+        <attr name="tip_canvas_color" format="color"/>
+    </declare-styleable>
+
+    <declare-styleable name="SplitliciousButton">
+        <attr name="button_icon" format="integer"/>
+        <attr name="button_color" format="color"/>
+        <attr name="button_text" format="string"/>
+        <attr name="button_text_color" format="color"/>
+        <attr name="button_text_size" format="dimension"/>
+    </declare-styleable>
+
+    <declare-styleable name="SplitBarView">
+        <attr name="bar_color" format="color"/>
+        <attr name="text_color" format="color"/>
+        <attr name="text_size" format="dimension"/>
+    </declare-styleable>
+
+    <declare-styleable name="RoundedImageView">
+        <attr name="corner_radius" format="dimension" />
+        <attr name="border_width" format="dimension" />
+        <attr name="border_color" format="color" />
+        <attr name="mutate_background" format="boolean" />
+        <attr name="oval" format="boolean" />
+        <attr name="android:scaleType" />
+    </declare-styleable>
+
+</resources>

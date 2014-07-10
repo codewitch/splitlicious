@@ -1,0 +1,10 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <item name="split_section_LinearLayout" type="id"/>
+    <item name="split_section_bar_TextView" type="id"/>
+    <item name="split_section_bar_ImageView" type="id"/>
+    <item name="split_section_image_LinearLayout" type="id"/>
+    <item name="split_section_image_ImageView" type="id"/>
+    <item name="split_section_image_TextView" type="id"/>
+
+</resources>

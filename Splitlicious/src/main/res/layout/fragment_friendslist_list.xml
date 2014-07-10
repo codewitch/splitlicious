@@ -1,0 +1,57 @@
+<?xml version="1.0" encoding="utf-8"?>
+
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+              xmlns:custom="http://schemas.android.com/apk/res-auto"
+              android:layout_width="match_parent"
+              android:layout_height="match_parent"
+              android:orientation="vertical">
+
+    <RelativeLayout
+        android:id="@+id/add_friends_search_wrapper"
+        android:layout_width="match_parent"
+        android:layout_height="85dp"
+        >
+
+        <ImageView
+            android:id="@+id/add_friends_search_ImageView"
+            android:layout_width="62dp"
+            android:layout_height="match_parent"
+            android:paddingTop="30dp"
+            android:paddingBottom="30dp"
+            android:src="@drawable/search_icon"
+            android:layout_alignParentLeft="true"
+            style="@style/friends_list_search_bar"/>
+
+        <EditText
+            android:id="@+id/add_friends_search_EditText"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:layout_toRightOf="@id/add_friends_search_ImageView"
+            android:hint="@string/add_friends_search_bar_text"
+            style="@style/friends_list_search_bar"/>
+
+    </RelativeLayout>
+
+    <ListView
+        android:id="@android:id/list"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:layout_below="@id/add_friends_search_wrapper"
+        android:paddingTop="6dp"
+        android:choiceMode="multipleChoice"
+        android:divider="@null"
+        />
+
+    <com.venmo.android.splitlicious.layouts.SplitliciousButton
+        android:id="@+id/add_friends_finish_button"
+        android:layout_width="match_parent"
+        android:layout_height="80dp"
+        android:layout_alignParentBottom="true"
+        android:clickable="true"
+        custom:button_icon="@drawable/white_check"
+        custom:button_color="@color/blue"
+        custom:button_text="@string/add_friends_finish_button_text"
+        custom:button_text_color="@color/white"
+        custom:button_text_size="25dp"/>
+
+</RelativeLayout>

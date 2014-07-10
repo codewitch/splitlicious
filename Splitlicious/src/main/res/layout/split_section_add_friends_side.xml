@@ -1,0 +1,10 @@
+<?xml version="1.0" encoding="utf-8"?>
+
+<ImageView xmlns:android="http://schemas.android.com/apk/res/android"
+    android:id="@+id/add_friends_buttonImageButton"
+    android:layout_width="30dp"
+    android:layout_height="60dp"
+    android:layout_alignParentRight="true"
+    android:layout_alignParentTop="true"
+    android:layout_marginTop="255dp"
+    android:src="@drawable/add_button_side"/>

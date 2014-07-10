@@ -1,0 +1,21 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+
+    <string name="app_name">Splitlicious</string>
+
+    <!--SPLIT BILL FRAGMENT-->
+    <string name="dollar_sign">$</string>
+    <string name="tip_label">TIP</string>
+    <string name="connect_venmo_button">Connect with Venmo</string>
+    <string name="split_finish_button_text">ROGER THAT!</string>
+
+    <!--ADD FRIENDS LIST FRAGMENT-->
+    <string name="add_friends_search_bar_text">ADD FRIENDS</string>
+    <string name="add_friends_finish_button_text">GOT \'EM</string>
+
+
+    <string name="self_first_name">Thomas</string>
+    <string name="self_last_name">Jeon</string>
+    <string name="self_profile_picture_url">https://graph.facebook.com/565357145/picture?type=large</string>
+
+</resources>

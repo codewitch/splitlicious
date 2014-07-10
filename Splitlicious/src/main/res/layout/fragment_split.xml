@@ -1,0 +1,130 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:custom="http://schemas.android.com/apk/res-auto"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    >
+
+    <RelativeLayout
+        android:id="@+id/split_bill_section_wrapper"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:layout_marginTop="85dp"
+        android:background="@color/dark_blue">
+
+        <LinearLayout
+            android:orientation="vertical"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:paddingLeft="30dp"
+            android:paddingRight="30dp"
+            android:paddingTop="50dp"
+            android:gravity="center_horizontal">
+
+            <!--venmo connect button-->
+            <Button
+                android:id="@+id/connect_venmo_button"
+                android:layout_width="fill_parent"
+                android:layout_height="75dp"
+                android:text="@string/connect_venmo_button"
+                android:textSize="22dp"
+                android:textStyle="bold"
+                style="@style/connect_venmo_button"
+                />
+
+            <!--grayed out bars-->
+        </LinearLayout>
+
+    </RelativeLayout>
+
+    <com.venmo.android.splitlicious.layouts.SplitliciousButton
+        android:id="@+id/split_finish_button"
+        android:layout_width="match_parent"
+        android:layout_height="80dp"
+        android:layout_alignParentBottom="true"
+        android:clickable="true"
+        custom:button_icon="@drawable/white_check"
+        custom:button_color="@color/spliticious_green"
+        custom:button_text="@string/split_finish_button_text"
+        custom:button_text_color="@color/white"
+        custom:button_text_size="25dp"/>
+
+    <LinearLayout
+        android:id="@+id/split_finish_view"
+        android:layout_width="match_parent"
+        android:layout_height="800dp"
+        android:orientation="vertical"
+        android:layout_marginTop="520dp"
+        android:background="@color/spliticious_green">
+        <ImageView
+            android:layout_width="match_parent"
+            android:layout_height="150dp"
+            android:layout_marginTop="190dp"
+            android:src="@drawable/banana_split_white"/>
+
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="60dp"
+            android:gravity="center"
+            android:textColor="@color/white"
+            android:textSize="35dp"
+            android:text="NICE SPLIT!"/>
+    </LinearLayout>
+
+    <RelativeLayout
+        android:id="@+id/bill_amount_section"
+        android:layout_width="match_parent"
+        android:layout_height="85dp"
+        android:layout_alignParentTop="true">
+
+        <com.venmo.android.splitlicious.layouts.TipEditText
+            android:id="@+id/tip_amount"
+            android:layout_width="100dp"
+            android:layout_height="match_parent"
+            android:layout_alignParentRight="true"
+            custom:tip_label="@string/tip_label"
+            custom:tip_percentage="15%"
+            custom:tip_label_size="12dp"
+            custom:tip_amount_size="18dp"
+            custom:tip_icon_left="@drawable/gray_cross"
+            custom:tip_icon_up="@drawable/gray_arrow"
+            custom:tip_icon_down="@drawable/gray_arrow_down"
+            custom:tip_text_color="@color/white"
+            custom:tip_background_color="@color/gray"
+            custom:tip_canvas_color="@color/white"
+            />
+
+        <RelativeLayout
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:layout_toLeftOf="@id/tip_amount"
+            >
+
+            <TextView
+                android:id="@+id/bill_amount_dollar_sign"
+                android:layout_width="55dp"
+                android:layout_height="match_parent"
+                android:layout_alignParentLeft="true"
+                android:gravity="center"
+                android:text="@string/dollar_sign"
+                android:textSize="40dp"
+                android:textColor="@color/gray"
+                android:textStyle="bold"
+                style="@style/no_appearance_EditText"/>
+
+            <EditText
+                android:id="@+id/bill_amount"
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:inputType="numberDecimal"
+                android:layout_toRightOf="@id/bill_amount_dollar_sign"
+                android:textSize="40dp"
+                android:textColor="@color/dark_blue"
+                style="@style/no_appearance_EditText"
+                />
+
+        </RelativeLayout>
+
+    </RelativeLayout>
+
+</RelativeLayout>

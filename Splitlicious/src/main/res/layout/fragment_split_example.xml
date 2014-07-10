@@ -1,0 +1,335 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:custom="http://schemas.android.com/apk/res-auto"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    >
+
+    <RelativeLayout
+        android:id="@+id/split_bill_section_wrapper"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:layout_marginTop="85dp"
+        android:background="@color/dark_blue">
+
+        <LinearLayout
+            android:id="@+id/split_bill_section"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:layout_marginLeft="35dp"
+            android:layout_marginRight="35dp"
+            android:layout_centerHorizontal="true"
+            android:orientation="horizontal"
+            android:gravity="center">
+
+            <LinearLayout
+                android:layout_width="72dp"
+                android:layout_height="match_parent"
+                android:gravity="center_horizontal"
+                android:orientation="vertical">
+
+                <com.venmo.android.splitlicious.layouts.SplitBarView
+                    android:layout_width="50dp"
+                    android:layout_height="240dp"
+                    android:gravity="center|bottom"
+                    android:paddingBottom="10dp"
+                    android:textSize="14dp"
+                    android:textColor="@color/dark_blue"
+                    custom:bar_color="@color/yellow"
+                    android:text="$7.42"
+                />
+
+                <ImageView
+                    android:layout_width="75dp"
+                    android:layout_height="3dp"
+                    android:layout_marginBottom="10dp"
+                    android:layout_gravity="left"
+                    android:src="@drawable/white_rounded_bar"
+                    />
+
+                <LinearLayout
+                    android:layout_width="62dp"
+                    android:layout_height="90dp"
+                    android:textSize="12dp"
+                    android:orientation="vertical"
+                    >
+
+                    <com.venmo.android.splitlicious.layouts.makeramen.RoundedImageView
+                        android:layout_width="60dp"
+                        android:layout_height="60dp"
+                        android:scaleType="centerCrop"
+                        custom:corner_radius="30dp"
+                        custom:border_width="6dp"
+                        custom:border_color="@color/yellow"
+                        custom:oval="true"
+                        custom:mutate_background="true"
+                        android:src="@drawable/no_image"
+                        />
+
+                    <TextView
+                        android:layout_width="match_parent"
+                        android:layout_height="15dp"
+                        android:layout_marginTop="6dp"
+                        android:gravity="center_horizontal"
+                        android:textSize="12dp"
+                        android:textColor="@color/white"
+                        android:text="Thomas"
+                        />
+
+                </LinearLayout>
+
+            </LinearLayout>
+            <LinearLayout
+                android:layout_width="72dp"
+                android:layout_height="match_parent"
+                android:gravity="center_horizontal"
+                android:orientation="vertical">
+
+                <com.venmo.android.splitlicious.layouts.SplitBarView
+                    android:layout_width="50dp"
+                    android:layout_height="240dp"
+                    android:gravity="center|bottom"
+                    android:paddingBottom="10dp"
+                    android:textSize="14dp"
+                    android:textColor="@color/dark_blue"
+                    custom:bar_color="@color/blue"
+                    android:text=""
+                    />
+
+                <ImageView
+                    android:layout_width="75dp"
+                    android:layout_height="3dp"
+                    android:layout_marginBottom="10dp"
+                    android:layout_gravity="center"
+                    android:src="@drawable/white_rounded_bar"
+                    />
+
+                <LinearLayout
+                    android:layout_width="62dp"
+                    android:layout_height="90dp"
+                    android:textSize="12dp"
+                    android:orientation="vertical"
+                    >
+
+                    <com.venmo.android.splitlicious.layouts.makeramen.RoundedImageView
+                        android:layout_width="60dp"
+                        android:layout_height="60dp"
+                        android:scaleType="centerCrop"
+                        custom:corner_radius="30dp"
+                        custom:border_width="6dp"
+                        custom:border_color="@color/blue"
+                        custom:oval="true"
+                        custom:mutate_background="true"
+                        android:src="@drawable/no_image"
+                        />
+
+                    <TextView
+                        android:layout_width="match_parent"
+                        android:layout_height="15dp"
+                        android:layout_marginTop="6dp"
+                        android:gravity="center_horizontal"
+                        android:textSize="12dp"
+                        android:textColor="@color/white"
+                        android:text="Thomas"
+                        />
+
+                </LinearLayout>
+
+            </LinearLayout>
+            <LinearLayout
+                android:layout_width="72dp"
+                android:layout_height="match_parent"
+                android:gravity="center_horizontal"
+                android:orientation="vertical">
+
+                <com.venmo.android.splitlicious.layouts.SplitBarView
+                    android:layout_width="50dp"
+                    android:layout_height="240dp"
+                    android:gravity="center|bottom"
+                    android:paddingBottom="10dp"
+                    android:textSize="14dp"
+                    android:textColor="@color/dark_blue"
+                    custom:bar_color="@color/red"
+                    android:text=""
+                    />
+
+                <ImageView
+                    android:layout_width="75dp"
+                    android:layout_height="3dp"
+                    android:layout_marginBottom="10dp"
+                    android:layout_gravity="center"
+                    android:src="@drawable/white_rounded_bar"
+                    />
+
+                <LinearLayout
+                    android:layout_width="62dp"
+                    android:layout_height="90dp"
+                    android:textSize="12dp"
+                    android:orientation="vertical"
+                    >
+
+                    <com.venmo.android.splitlicious.layouts.makeramen.RoundedImageView
+                        android:layout_width="60dp"
+                        android:layout_height="60dp"
+                        android:scaleType="centerCrop"
+                        custom:corner_radius="30dp"
+                        custom:border_width="6dp"
+                        custom:border_color="@color/red"
+                        custom:oval="true"
+                        custom:mutate_background="true"
+                        android:src="@drawable/no_image"
+                        />
+
+                    <TextView
+                        android:layout_width="match_parent"
+                        android:layout_height="15dp"
+                        android:layout_marginTop="6dp"
+                        android:gravity="center_horizontal"
+                        android:textSize="12dp"
+                        android:textColor="@color/white"
+                        android:text="Thomas"
+                        />
+
+                </LinearLayout>
+
+            </LinearLayout>
+            <LinearLayout
+                android:layout_width="72dp"
+                android:layout_height="match_parent"
+                android:gravity="center_horizontal"
+                android:orientation="vertical">
+
+                <com.venmo.android.splitlicious.layouts.SplitBarView
+                    android:layout_width="50dp"
+                    android:layout_height="240dp"
+                    android:gravity="center|bottom"
+                    android:paddingBottom="10dp"
+                    android:textSize="14dp"
+                    android:textColor="@color/dark_blue"
+                    custom:bar_color="@color/purple"
+                    android:text=""
+                    />
+
+                <ImageView
+                    android:layout_width="75dp"
+                    android:layout_height="3dp"
+                    android:layout_marginBottom="10dp"
+                    android:layout_gravity="right"
+                    android:src="@drawable/white_rounded_bar"
+                    />
+
+                <LinearLayout
+                    android:layout_width="62dp"
+                    android:layout_height="90dp"
+                    android:textSize="12dp"
+                    android:orientation="vertical"
+                    >
+
+                    <com.venmo.android.splitlicious.layouts.makeramen.RoundedImageView
+                        android:layout_width="60dp"
+                        android:layout_height="60dp"
+                        android:scaleType="centerCrop"
+                        custom:corner_radius="30dp"
+                        custom:border_width="6dp"
+                        custom:border_color="@color/purple"
+                        custom:oval="true"
+                        custom:mutate_background="true"
+                        android:src="@drawable/no_image"
+                        />
+
+                    <TextView
+                        android:layout_width="match_parent"
+                        android:layout_height="15dp"
+                        android:layout_marginTop="6dp"
+                        android:gravity="center_horizontal"
+                        android:textSize="12dp"
+                        android:textColor="@color/white"
+                        android:text="Thomas"
+                        />
+
+                </LinearLayout>
+
+            </LinearLayout>
+
+        </LinearLayout>
+
+        <ImageView
+            android:id="@+id/add_friends_buttonImageButton"
+            android:layout_width="30dp"
+            android:layout_height="60dp"
+            android:layout_alignParentRight="true"
+            android:layout_alignParentTop="true"
+            android:layout_marginTop="255dp"
+            android:src="@drawable/add_button_side"/>
+
+    </RelativeLayout>
+
+    <com.venmo.android.splitlicious.layouts.SplitliciousButton
+        android:id="@+id/split_finish_button"
+        android:layout_width="match_parent"
+        android:layout_height="80dp"
+        android:layout_alignParentBottom="true"
+        android:clickable="true"
+        custom:button_icon="@drawable/white_check"
+        custom:button_color="@color/spliticious_green"
+        custom:button_text="@string/split_finish_button_text"
+        custom:button_text_color="@color/white"
+        custom:button_text_size="25dp"/>
+
+    <RelativeLayout
+        android:id="@+id/bill_amount_section"
+        android:layout_width="match_parent"
+        android:layout_height="85dp"
+        android:layout_alignParentTop="true">
+
+        <com.venmo.android.splitlicious.layouts.TipEditText
+            android:id="@+id/tip_amount"
+            android:layout_width="110dp"
+            android:layout_height="match_parent"
+            android:layout_alignParentRight="true"
+            custom:tip_label="@string/tip_label"
+            custom:tip_percentage="15%"
+            custom:tip_label_size="12dp"
+            custom:tip_amount_size="18dp"
+            custom:tip_icon_left="@drawable/gray_cross"
+            custom:tip_icon_up="@drawable/gray_arrow"
+            custom:tip_icon_down="@drawable/gray_arrow_down"
+            custom:tip_text_color="@color/white"
+            custom:tip_background_color="@color/gray"
+            custom:tip_canvas_color="@color/white"
+            />
+
+        <RelativeLayout
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:layout_toLeftOf="@id/tip_amount"
+            >
+
+            <TextView
+                android:id="@+id/bill_amount_dollar_sign"
+                android:layout_width="55dp"
+                android:layout_height="match_parent"
+                android:layout_alignParentLeft="true"
+                android:gravity="center"
+                android:text="@string/dollar_sign"
+                android:textSize="40dp"
+                android:textColor="@color/gray"
+                android:textStyle="bold"
+                style="@style/no_appearance_EditText"/>
+
+            <EditText
+                android:id="@+id/bill_amount"
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:inputType="numberDecimal"
+                android:layout_toRightOf="@id/bill_amount_dollar_sign"
+                android:textSize="40dp"
+                android:textColor="@color/dark_blue"
+                style="@style/no_appearance_EditText"
+                />
+
+        </RelativeLayout>
+
+    </RelativeLayout>
+
+</RelativeLayout>

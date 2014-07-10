@@ -1,0 +1,74 @@
+<?xml version="1.0" encoding="utf-8"?>
+
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+              xmlns:custom="http://schemas.android.com/apk/res-auto"
+              android:id="@+id/add_friends_button_LinearLayout"
+              android:layout_width="72dp"
+              android:layout_height="match_parent"
+              android:gravity="center_horizontal"
+              android:orientation="vertical">
+
+    <com.venmo.android.splitlicious.layouts.SplitBarView
+        android:layout_width="50dp"
+        android:layout_height="240dp"
+        android:gravity="center|bottom"
+        android:paddingBottom="10dp"
+        android:textSize="14dp"
+        android:textColor="@color/dark_blue"
+        custom:bar_color="@color/blue"
+        />
+
+    <ImageView
+        android:layout_width="75dp"
+        android:layout_height="3dp"
+        android:layout_marginBottom="10dp"
+        android:layout_gravity="left"
+        android:src="@drawable/white_rounded_bar"
+        />
+
+    <LinearLayout
+        android:layout_width="62dp"
+        android:layout_height="90dp"
+        android:textSize="12dp"
+        android:orientation="vertical"
+        >
+
+        <RelativeLayout
+            android:id="@+id/add_friends_buttonImageButton"
+            android:layout_width="match_parent"
+            android:layout_height="65dp"
+            android:clickable="true"
+            >
+
+            <com.venmo.android.splitlicious.layouts.makeramen.RoundedImageView
+                android:layout_width="60dp"
+                android:layout_height="60dp"
+                android:scaleType="fitCenter"
+                custom:border_width="6dp"
+                custom:border_color="@color/blue"
+                custom:oval="true"
+                custom:mutate_background="true"
+                android:src="@color/dark_blue"
+                />
+
+            <ImageView
+                android:layout_width="45dp"
+                android:layout_height="45dp"
+                android:paddingTop="16dp"
+                android:paddingLeft="16dp"
+                android:src="@drawable/blue_cross"/>
+
+        </RelativeLayout>
+
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="15dp"
+            android:layout_marginTop="6dp"
+            android:gravity="center_horizontal"
+            android:textSize="12dp"
+            android:textColor="@color/white"
+            />
+
+    </LinearLayout>
+
+</LinearLayout>

@@ -1,0 +1,21 @@
+<resources>
+
+    <!-- Base application theme. -->
+    <style name="AppTheme" parent="Theme.AppCompat.Light.DarkActionBar">
+        <!-- Customize your theme here. -->
+    </style>
+
+    <style name="connect_venmo_button" >
+        <item name="android:textColor">@color/white</item>
+        <item name="android:background">@drawable/connect_venmo_button</item>
+    </style>
+
+    <style name="friends_list_search_bar" >
+        <item name="android:background">@drawable/friends_list_search_bar</item>
+    </style>
+
+    <style name="no_appearance_EditText" >
+        <item name="android:background">@color/white</item>
+    </style>
+
+</resources>
