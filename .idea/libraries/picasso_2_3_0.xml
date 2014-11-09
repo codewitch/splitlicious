@@ -4,6 +4,8 @@
       <root url="jar://$USER_HOME$/.gradle/caches/modules-2/files-2.1/com.squareup.picasso/picasso/2.3.0/3c473ebbfeef016ab2ff977e84868b821070a5f6/picasso-2.3.0.jar!/" />
     </CLASSES>
     <JAVADOC />
-    <SOURCES />
+    <SOURCES>
+      <root url="jar://$USER_HOME$/.gradle/caches/modules-2/files-2.1/com.squareup.picasso/picasso/2.3.0/d4a805fdb112e552e7711710fb6203f0150f130d/picasso-2.3.0-sources.jar!/" />
+    </SOURCES>
   </library>
 </component>

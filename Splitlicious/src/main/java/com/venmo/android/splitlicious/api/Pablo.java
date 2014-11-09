@@ -1,11 +1,10 @@
-package com.venmo.api;
+package com.venmo.android.splitlicious.api;
 
 import android.content.Context;
 import android.net.Uri;
 import android.os.SystemClock;
-import android.util.Log;
+
 import com.squareup.picasso.Picasso;
-import com.squareup.picasso.Picasso.Listener;
 import com.squareup.picasso.UrlConnectionDownloader;
 import java.io.IOException;
 

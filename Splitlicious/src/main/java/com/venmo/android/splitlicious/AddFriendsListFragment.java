@@ -19,7 +19,7 @@ import com.venmo.android.splitlicious.models.Bill;
 import com.venmo.android.splitlicious.models.BillLab;
 import com.venmo.android.splitlicious.models.Person;
 import com.venmo.android.splitlicious.models.FriendLab;
-import com.venmo.api.Pablo;
+import com.venmo.android.splitlicious.api.Pablo;
 
 import java.util.ArrayList;
 import java.util.UUID;
@@ -91,7 +91,7 @@ public class AddFriendsListFragment extends ListFragment{
             }
         };
         mAddFriendsFinishButton = (SplitliciousButton)v.findViewById(R.id.add_friends_finish_button);
-        mAddFriendsFinishButton.setOnTouchListener(new SplitliciousButtonListener(mAddFriendsFinishButton, closeAddFriendsListRunnable));
+        mAddFriendsFinishButton.setOnTouchListener(new SplitliciousButtonListener(mAddFriendsFinishButton, closeAddFriendsListRunnable, 0.3f));
 
         return v;
     }

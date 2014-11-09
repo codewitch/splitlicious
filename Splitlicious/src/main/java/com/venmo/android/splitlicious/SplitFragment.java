@@ -1,6 +1,7 @@
 package com.venmo.android.splitlicious;
 
 import android.app.Activity;
+import android.content.Intent;
 import android.os.Bundle;
 import android.support.v4.app.Fragment;
 import android.text.Editable;
@@ -10,8 +11,6 @@ import android.text.TextWatcher;
 import android.view.LayoutInflater;
 import android.view.View;
 import android.view.ViewGroup;
-import android.view.animation.Animation;
-import android.view.animation.AnimationUtils;
 import android.widget.Button;
 import android.widget.EditText;
 import android.widget.ImageView;
@@ -19,6 +18,8 @@ import android.widget.LinearLayout;
 import android.widget.RelativeLayout;
 import android.widget.TextView;
 
+import com.venmo.android.splitlicious.api.VenmoLibrary;
+import com.venmo.android.splitlicious.api.VenmoWebViewActivity;
 import com.venmo.android.splitlicious.layouts.SplitliciousButton;
 import com.venmo.android.splitlicious.layouts.TipEditText;
 import com.venmo.android.splitlicious.layouts.makeramen.RoundedImageView;
@@ -27,9 +28,8 @@ import com.venmo.android.splitlicious.models.Bill;
 import com.venmo.android.splitlicious.models.BillLab;
 import com.venmo.android.splitlicious.models.Person;
 import com.venmo.android.splitlicious.models.FriendLab;
-import com.venmo.api.Pablo;
+import com.venmo.android.splitlicious.api.Pablo;
 
-import java.util.ArrayList;
 import java.util.LinkedHashMap;
 import java.util.Map;
 import java.util.UUID;

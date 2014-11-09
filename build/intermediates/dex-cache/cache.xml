@@ -1,0 +1,29 @@
+<?xml version="1.0" encoding="utf-8"?>
+<pre-dex-items>
+
+    <item
+        dex="/Users/thomasjeon/Documents/sideprojects/AndroidStudioProjects/Splitlicious/Splitlicious/build/intermediates/pre-dexed/debug/json-simple-1.1.1-f35156d6f4bdb7b1a4d6ffc304c7b179392cb8e3.jar"
+        jar="/Users/thomasjeon/Documents/sideprojects/AndroidStudioProjects/Splitlicious/Splitlicious/libs/json-simple-1.1.1.jar"
+        jumboMode="false"
+        revision="19.1.0"
+        sha1="5d6f9b6a9ddca2a28c0216cc44efb2e20d9c23b5"/>
+    <item
+        dex="/Users/thomasjeon/Documents/sideprojects/AndroidStudioProjects/Splitlicious/Splitlicious/build/intermediates/pre-dexed/debug/classes-aeba56a535e7813ac9d2cf7c6667e7ee5b709dfe.jar"
+        jar="/Users/thomasjeon/Documents/sideprojects/AndroidStudioProjects/Splitlicious/build/intermediates/exploded-aar/com.android.support/appcompat-v7/19.1.0/classes.jar"
+        jumboMode="false"
+        revision="19.1.0"
+        sha1="3499ceba05ca1f6037c6a2fad73df8f636224a28"/>
+    <item
+        dex="/Users/thomasjeon/Documents/sideprojects/AndroidStudioProjects/Splitlicious/Splitlicious/build/intermediates/pre-dexed/debug/picasso-2.3.0-683db9b395935ea4079bc257d053fbb75d2020ca.jar"
+        jar="/Users/thomasjeon/.gradle/caches/modules-2/files-2.1/com.squareup.picasso/picasso/2.3.0/3c473ebbfeef016ab2ff977e84868b821070a5f6/picasso-2.3.0.jar"
+        jumboMode="false"
+        revision="19.1.0"
+        sha1="3c473ebbfeef016ab2ff977e84868b821070a5f6"/>
+    <item
+        dex="/Users/thomasjeon/Documents/sideprojects/AndroidStudioProjects/Splitlicious/Splitlicious/build/intermediates/pre-dexed/debug/support-v4-19.1.0-fe930dc68beb1e566675ce71b270d4091c6c249b.jar"
+        jar="/Applications/Android Studio.app/sdk/extras/android/m2repository/com/android/support/support-v4/19.1.0/support-v4-19.1.0.jar"
+        jumboMode="false"
+        revision="19.1.0"
+        sha1="85f201b380937e61a9dce6ca90ccf6872abbfb67"/>
+
+</pre-dex-items>
